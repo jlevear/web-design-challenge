@@ -9,13 +9,12 @@
 
 <body>
 
+  <!-- navbar configuration -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
@@ -36,52 +35,38 @@
       </ul>
     </div>
   </nav>
-
-  <!-- <div class="bg-light border-right" id="sidebar-wrapper">
-    <div class="sidebar-heading">Start Bootstrap </div>
-    <div class="list-group list-group-flush">
-      <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-      <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-      <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-      <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-      <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-      <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
-    </div>
-  </div> -->
+  
+  <!-- wrap page content next to sidebar -->
   <div class="d-flex" id="wrapper">
 
-    <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper" style="width:25%;right:0;">
+    <!-- sidebar configuration -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="sidebar-heading">Visualizations</div>
       <div class="list-group list-group-flush">
         <a href="WebVisualizations/Visualizations/Fig1.png">
             <img src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:400px;height:225px;">
           </a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+          <a href="WebVisualizations/Visualizations/Fig2.png">
+            <img src="WebVisualizations/Visualizations/Fig2.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:400px;height:225px;">
+          </a>
+          <a href="WebVisualizations/Visualizations/Fig3.png">
+            <img src="WebVisualizations/Visualizations/Fig3.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:400px;height:225px;">
+          </a>
+          <a href="WebVisualizations/Visualizations/Fig4.png">
+            <img src="WebVisualizations/Visualizations/Fig4.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:400px;height:225px;">
+          </a>
       </div>
     </div>
-    <!-- /#sidebar-wrapper -->
-  
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
 
+    <!-- landing page content -->
+    <div id="page-content-wrapper">
       <div class="container-fluid">
         <h1>Summary: Latitude vs. X</h1>
-
-        <a href="WebVisualizations/Visualizations/Fig1.png">
-          <img src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:600px;height:425px;">
-        </a>
-      
         <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
         <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed</p>
       
       </div>
     </div>
-    <!-- /#page-content-wrapper -->
 
   </div>
   
