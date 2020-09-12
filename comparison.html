@@ -5,6 +5,7 @@
   <title>Comparisons</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  
 </head>
 
 <body>
@@ -39,19 +40,43 @@
   <!-- display the four visualizations -->
   <h1>Comparison: Latitude vs. X</h1>
   <p>Click any plot to get an in-depth analysis.</p>
-  <a href="fig1.html">
-    <img src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:400px;height:225px;">
-  </a>
-  <a href="fig2.html">
-    <img src="WebVisualizations/Visualizations/Fig2.png" alt="City latitude vs. humidity percentage" style="width:400px;height:225px;">
-  </a>
-  <a href="fig3.html">
-    <img src="WebVisualizations/Visualizations/Fig3.png" alt="City latitude vs. cloudiness percentage" style="width:400px;height:225px;">
-  </a>
-  <a href="fig4.html">
-    <img src="WebVisualizations/Visualizations/Fig4.png" alt="City latitude vs. wind speed in mph" style="width:400px;height:225px;">
-  </a>  
- 
+  <div class="row">
+    <div class="column">
+      <figure>
+        <figcaption>vs. Max Temperature</figcaption>
+        <a href="fig1.html">
+          <img title = "vs. Max Temperature" src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:600;height:425px;">
+        </a>
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <figcaption>vs. Humidity Percentage</figcaption>
+        <a href="fig2.html">
+          <img title = "vs. Humidity Percentage" src="WebVisualizations/Visualizations/Fig2.png" alt="City latitude vs. humidity percentage" style="width:600px;height:425px;">
+        </a>
+      </figure>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <figure>
+        <figcaption>vs. Cloudiness Percentage</figcaption>
+        <a href="fig3.html">
+          <img title = "vs. Max Tmperature" src="WebVisualizations/Visualizations/Fig3.png" alt="City latitude vs. cloudiness percentage" style="width:600px;height:425px;">
+        </a>
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <figcaption>vs. Wind Speed</figcaption>
+        <a href="fig4.html">
+          <img title = "vs. Max Tmperature" src="WebVisualizations/Visualizations/Fig4.png" alt="City latitude vs. wind speed in mph" style="width:600px;height:425px;">
+        </a>
+      </figure>
+    </div>
+  </div>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
