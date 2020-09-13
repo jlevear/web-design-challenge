@@ -40,28 +40,31 @@
   <div class="d-flex" id="wrapper">
 
     <!-- sidebar configuration -->
+    <div class="right">
     <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Visualizations</div>
+    
+      <!-- <div class="sidebar-heading">Visualizations</div> -->
       <div class="list-group list-group-flush">
         <a href="fig1.html">
-            <img src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:400px;height:225px;">
+            <img src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:324px;height:230px;">
           </a>
           <a href="fig2.html">
-            <img src="WebVisualizations/Visualizations/Fig2.png" alt="City latitude vs. humidity percentage" style="width:400px;height:225px;">
+            <img src="WebVisualizations/Visualizations/Fig2.png" alt="City latitude vs. humidity percentage" style="width:324px;height:230px;">
           </a>
           <a href="fig3.html">
-            <img src="WebVisualizations/Visualizations/Fig3.png" alt="City latitude vs. cloudiness percentage" style="width:400px;height:225px;">
+            <img src="WebVisualizations/Visualizations/Fig3.png" alt="City latitude vs. cloudiness percentage" style="width:324px;height:230px;">
           </a>
           <a href="fig4.html">
-            <img src="WebVisualizations/Visualizations/Fig4.png" alt="City latitude vs. wind speed in mph" style="width:400px;height:225px;">
+            <img src="WebVisualizations/Visualizations/Fig4.png" alt="City latitude vs. wind speed in mph" style="width:324px;height:230px;">
           </a>
+      </div>
       </div>
     </div>
 
     <!-- landing page content -->
     <div id="page-content-wrapper">
       <div class="container-fluid">
-        <h1>Summary: Latitude vs. X</h1>
+        <h1 class="jumbotron">Summary: Latitude vs. X</h1>
         <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
         <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed</p>
       
