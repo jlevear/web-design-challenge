@@ -36,18 +36,43 @@
       </div>
     </nav>
 
-  <h1 class="jumbotron">Comparison: Latitude vs. Max Temperature</h1>
-  <p>This graph demonstrates that as you get closer to the equator, the maximum temperature increases. Similarly, as you get further from the equator, the maximum temperature decreases.</p>
-  <div class="col-lg-4">
-    <div class="card" style="width: 55rem;">
-      <div class="card-body">
+  <!-- wrap page content next to sidebar -->
+  <div class="d-flex" id="wrapper">
+
+    <!-- sidebar configuration -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+    
+      <!-- <div class="sidebar-heading">Visualizations</div> -->
+      <div class="list-group list-group-flush">
         <a href="fig1.html">
-          <img title = "vs. Max Temperature" src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:810;height:577px;">
+          <img title = "Max Temperature" src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:324px;height:200px;">
+        </a>
+        <a href="fig2.html">
+          <img title = "Percent Humidity" src="WebVisualizations/Visualizations/Fig2.png" alt="City latitude vs. percent humidity" style="width:324px;height:200px;">
+        </a>
+        <a href="fig3.html">
+          <img title = "Percent Cloudiness" src="WebVisualizations/Visualizations/Fig3.png" alt="City latitude vs. cloudiness percentage" style="width:324px;height:200px;">
+        </a>
+        <a href="fig4.html">
+          <img title = "Wind Speed" src="WebVisualizations/Visualizations/Fig4.png" alt="City latitude vs. wind speed in mph" style="width:324px;height:200px;">
         </a>
       </div>
     </div>
-  </div>
-
+    <div id="page-content-wrapper">
+      <div class="container-fluid">  
+        <h1>Max Temperature</h1>
+        <h5>This graph demonstrates that as you get closer to the equator, the maximum temperature increases. Similarly, as you get further from the equator, the maximum temperature decreases.</h5>
+        <div class="col-lg-4">
+          <div class="card" style="width: 55rem;">
+            <div class="card-body">
+              <a href="fig1.html">
+                <img title = "vs. Max Temperature" src="WebVisualizations/Visualizations/Fig1.png" alt="City latitude vs. max temperature in degrees fahrenheit" style="width:810;height:577px;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
